@@ -18,6 +18,7 @@
 - jQuery
 
 <br/>
-<img width="1616" alt="1" src="https://user-images.githubusercontent.com/28972721/36712370-4f32864c-1b3d-11e8-98c8-ac27aae8bac5.png">
+<img width="1247" alt="7" src="https://user-images.githubusercontent.com/28972721/37206356-327fcc86-234d-11e8-95a5-cdf13a4be2d1.png">
+
 
 
