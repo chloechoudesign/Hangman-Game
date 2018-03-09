@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Christmas Hangman</title>
+
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+<div class="col-md-1"></div>
+
+<div class="col-md-10">
+
+    <div class="jumbotron">
+        <h1 class="text-center">Christmas Hangman</h1>
+        <p class="text-center">Press any key to get started!</p>
+    </div>
+
+    <div class="scoreBoard">
+      
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h2 id="currentWord"></h2>
+            </li>
+        </ul>
+
+        <ul class="list-group col-md-8">
+
+            <li class="list-group-item">
+              <h4 id="guessesRemaining"></h4>
+            </li>
+
+            <li class="list-group-item">
+              <h4 id="guessed"></h4>
+            </li>
+
+            <li class="list-group-item">
+              <h4 id="winCounter"></h4>
+            </li>
+
+            <li class="list-group-item">
+              <h4 id="lossCounter"></h4>
+            </li>
+        </ul>
+
+        <div id="santa_img" class="col-md-4">
+            <img class="img-responsive" src="https://maps.gstatic.com/mapfiles/santatracker/v201612250404/images/village_2x.gif">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="col-md-1"></div>
+
+
+</body>
+</html>
